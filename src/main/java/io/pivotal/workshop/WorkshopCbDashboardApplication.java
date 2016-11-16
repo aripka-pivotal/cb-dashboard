@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @SpringBootApplication
 @EnableHystrixDashboard
 @Controller
-public class FortuneCbDashboardApplication {
+public class WorkshopCbDashboardApplication {
 
 	@RequestMapping("/")
 	public String home() {
@@ -18,6 +18,6 @@ public class FortuneCbDashboardApplication {
 
 	
 	public static void main(String[] args) {
-		SpringApplication.run(FortuneCbDashboardApplication.class, args);
+		SpringApplication.run(WorkshopCbDashboardApplication.class, args);
 	}
 }
